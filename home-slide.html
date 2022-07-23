@@ -1,0 +1,467 @@
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width" intial-scale="1.0">
+        <title>ABYSSINIA</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+        <link rel="shortcut icon"  type="png" href="favicon1.png"/>
+        <script src="https://kit.fontawesome.com/fac00af1c1.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+        <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/brands.min.css">
+        <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/solid.min.css">
+        <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/regular.min.css">
+    </head>
+    <body onload="slider()">
+        <div class="banner">
+            <div class="slider">
+                <img src="img1.jpg" id="slideimg">
+            </div>
+            <div class="overlay">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="logo.png">
+                    </div>  
+                    <nav>
+                        <div class="logo12"></div>
+                        <ul>
+                            <li><a class="navibar"  href="#drinks">Drinks</a></li>
+                            <li><a href="#Restaurant">Restaurants</a></li>
+                            <li><a href="#service">Service</a></li>&nbsp;
+                            <li><a href="#howitworks">About</a></li>&nbsp;
+                            <li><a href="#testimonial">Testimonial</a></li>&nbsp;
+                            <li><a href="#footer">Contact us</a></li>&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <li><a class="navibar" href="login.html">Login <i class="fas fa-sign-in-alt"></i></a></li>
+                        </ul>
+                    </nav>
+            </div>      
+                <div class="content">
+                    <h1>ABYSSINIA'S - DELIVERY</h1>
+                    <h3>Start Your Day By Eating Nice Food</h3>
+
+                    <div class="btn">
+                    <a href="#">ORDER-NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var slideimg = document.getElementById("slideimg");
+
+            var images = new Array(
+                "image22.jpg",
+                "image33.jpg",
+                "image44.jpg",
+                "image55.jpg",
+                "img1.jpg",
+                "img2.jpg",
+                "img3.jpg",
+                "img4.jpg",
+                "img5.jpg",
+                "img6.jpg",
+                "img7.jpg",
+                "img8.jpg",
+                "img9.jpg"
+            );
+
+           var len = images.length;
+           var i = 0;
+           
+           function slider(){
+               if(i > len-1){
+                   i = 0;
+               }
+               slideimg.src = images[i]; i++;
+               setTimeout('slider()',3000);
+           }
+           
+        </script>
+<hr>
+<!--drinks -->
+<section id="drinks">
+    <div class="title-text">
+        <p>drinks</p>
+        <h1>Non-Alcholic & SOFT Drinks</h1>
+    </div>
+    <div class="Restaurant-row">
+        <div class="Restaurant-col">
+            <div class="res-user">
+                <img src="malta.jpg">
+            <div class="user-info">
+                <h4><i class="fa fa-glass"></i> </h4>
+                <h3>Malta</h3>
+            
+        </div>
+    </div>
+    <p>
+        <div class="footer-right1">
+        <i class="fas fa-map-marker-alt"></i> All Mart Supermarket<br>
+        </div> 
+    </p>  
+        </div>
+        <div class="Restaurant-col">
+            <div class="res-user">
+                <img src="Predator.jpeg">
+            <div class="user-info">
+                <h4><i class="fa fa-glass"></i></h4>
+                <h3>Predator</h3>
+            </div>
+    </div>
+    <p>
+        <div class="footer-right1">
+        <i class="fas fa-map-marker-alt"></i>Electroliquor store<br>
+        <br>
+        </div> 
+    </p>  
+        </div>
+        <div class="Restaurant-col">
+            <div class="res-user">
+                <img src="coca cola.jpg">
+            <div class="user-info">
+                <h4><i class="fa fa-glass"></i></i></h4>
+                <h3>Coca Cola</h3> 
+        </div>
+    </div>
+    <p>
+        <div class="footer-right1">
+        <i class="fas fa-map-marker-alt"></i> All Mart Supermarket<br>
+        </div> 
+    </p>  
+        </div>
+        <div class="Restaurant-col">
+            <div class="res-user">
+                <img src="spritee.jpg">
+            <div class="user-info">
+                <h4><i class="fa fa-glass"></i></i></h4>
+                <h3>Sprite</h3>
+            </div>
+    </div>
+            <p>
+                <div class="footer-right1">
+                <i class="fas fa-map-marker-alt"></i> All Mart Supermarket<br>
+                </div> 
+            </p>   
+        </div>
+        <div class="Restaurant-col">
+            <div class="res-user">
+                <img src="Origin-Water.jpeg">
+            <div class="user-info">
+                <h4><i class="fa fa-glass"></i></i></h4>
+                <h3>Origin Water</h3>
+            </div>
+    </div>
+    <p>
+        <div class="footer-right1">
+        <i class="fas fa-map-marker-alt"></i>Electroliquor store<br>
+        </div> 
+    </p>  
+        </div>
+        <div class="Restaurant-col">
+            <div class="res-user">
+                <img src="mirinda.jpg">
+            <div class="user-info">
+                <h4><i class="fa fa-glass"></i></i></h4>
+                <h3>Mirinda</h3>
+            </div>
+    </div>
+    <p>
+        <div class="footer-right1">
+        <i class="fas fa-map-marker-alt"></i> All Mart Supermarket<br>
+        </div> 
+    </p>  
+        </div>
+</section>
+
+<!-- Restaurant -->
+<section id="Restaurant">
+    <div class="title-text">
+        <p>NEARBY RESTAURANTS</p>
+    </div>
+    <div class="Restaurant-row">
+        <div class="Restaurant-col">
+            <div class="res-user">
+                <img src="buddy.jpg">
+            <div class="user-info">
+                <h4><i class="fas fa-utensils"></i></i></h4>
+                <h3>Buddy Pizza & Burger</h3>
+            <div class="boox">
+                <a class="fas fa-star s1"></a>
+                <a class="fas fa-star s2"></a>
+                <a class="fas fa-star s3"></a>
+                <a class="fas fa-star s4"></a>
+                <a class="fas fa-star s5"></a>
+            </div>
+        </div>
+    </div>
+            <p>
+                <div class="footer-right1">
+                <i class="fas fa-map-marker-alt"></i> Cmc Figa Traffic Light, 200m Direction Goro, Addis Ababa Ethiopia <br>
+                Email <i class="fas fa-external-link-square-alt"></i> <br>
+                <i class="fas fa-phone-alt"></i> +251 96 230 8964 <br>
+                </p>
+                </div>
+        </div>
+        <div class="Restaurant-col">
+            <div class="res-user">
+                <img src="2000habesha.jpg">
+            <div class="user-info">
+                <h4><i class="fas fa-utensils"></i></i></h4>
+                <h3>2000 Habesha Restaurant</h3>
+            <div class="boox">
+                <a class="far fa-star s1"></a>
+                <a class="fas fa-star s2"></a>
+                <a class="fas fa-star s3"></a>
+                <a class="fas fa-star s4"></a>
+                <a class="fas fa-star s5"></a>
+            </div>
+        </div>
+    </div>
+            <p>
+                <div class="footer-right1">
+                <i class="fas fa-map-marker-alt"></i> Next to Sabit Building Bole, Addis Ababa Ethiopia<br>
+                Email <i class="fas fa-external-link-square-alt"></i> <br>
+                <i class="fas fa-phone-alt"></i> 518358<br>
+                </p>
+                </div>
+        </div>
+        <div class="Restaurant-col">
+            <div class="res-user">
+                <img src="clay.jpg">
+            <div class="user-info">
+                <h4><i class="fas fa-utensils"></i></i></h4>
+                <h3>Clay Pot</h3>
+            <div class="boox">
+                <a class="fas fa-star-half-alt s1"></i></a>
+                <a class="fas fa-star s2"></a>
+                <a class="fas fa-star s3"></a>
+                <a class="fas fa-star s4"></a>
+                <a class="fas fa-star s5"></a>
+            </div>
+        </div>
+    </div>
+            <p>
+                <div class="footer-right1">
+                <i class="fas fa-map-marker-alt"></i> Between Olympia and Bambies Mentewab Building, Addis Ababa Ethiopia<br>
+                Email <i class="fas fa-external-link-square-alt"></i> <br>
+                <i class="fas fa-phone-alt"></i> +251 93 131 2199<br>
+                </p>
+                </div>
+        </div>
+        <div class="Restaurant-col">
+            <div class="res-user">
+                <img src="tutto gelato.jpg">
+            <div class="user-info">
+                <h4><i class="fas fa-utensils"></i></i></h4>
+                <h3>Tutto Gelato</h3>
+            <div class="boox">
+                <a class="fas fa-star-half-alt s1"></a>
+                <a class="fas fa-star s2"></a>
+                <a class="fas fa-star s3"></a>
+                <a class="fas fa-star s4"></a>
+                <a class="fas fa-star s5"></a>
+            </div>
+        </div>
+    </div>
+            <p>
+                <div class="footer-right1">
+                <i class="fas fa-map-marker-alt"></i> TDS Hotel, Addis Ababa 9248 Ethiopia<br>
+                Email <i class="fas fa-external-link-square-alt"></i> <br>
+                <i class="fas fa-phone-alt"></i> +251 91 120 7227<br>
+                </p>
+                </div>    
+        </div>
+        <div class="Restaurant-col">
+            <div class="res-user">
+                <img src="the-kitchen.jpg">
+            <div class="user-info">
+                <h4><i class="fas fa-utensils"></i></i></h4>
+                <h3>The Kitchen</h3>
+            <div class="boox">
+                <a class="fas fa-star s1"></a>
+                <a class="fas fa-star s2"></a>
+                <a class="fas fa-star s3"></a>
+                <a class="fas fa-star s4"></a>
+                <a class="fas fa-star s5"></a>
+            </div>
+        </div>
+    </div>
+            <p>
+                <div class="footer-right1">
+                <i class="fas fa-map-marker-alt"></i> Meskel Square, Addis Ababa 2150 Ethiopia<br>
+                Email <i class="fas fa-external-link-square-alt"></i> <br>
+                <i class="fas fa-phone-alt"></i>+251 11 517 1234<br>
+                </p>
+                </div>
+        </div>
+        <div class="Restaurant-col">
+            <div class="res-user">
+                <img src="bait-al-mandi.jpg">
+            <div class="user-info">
+                <h4><i class="fas fa-utensils"></i></i></h4>
+                <h3>Bait Al Mandi</h3>
+            <div class="boox">
+                <a class="fas fa-star-half-alt s1"></a>
+                <a class="fas fa-star s2"></a>
+                <a class="fas fa-star s3"></a>
+                <a class="fas fa-star s4"></a>
+                <a class="fas fa-star s5"></a>
+            </div>
+        </div>
+    </div>
+            <p>
+                <div class="footer-right1">
+                <i class="fas fa-map-marker-alt"></i> Opposite Yolly Building, Addis Ababa Ethiopia<br>
+                Email <i class="fas fa-external-link-square-alt"></i> <br>
+                <i class="fas fa-phone-alt"></i> +251 91 151 8903<br>
+                </p>
+                </div>
+        </div>
+</section>
+<!--service-->
+<section id="service">
+    <div class="title-text">
+        <p>SERVICES</p>
+        <h1>Fast Service</h1>
+    </div>
+    <div class="service-box">
+        <div class="single-service">
+            <img src="image1.jpeg">
+            <div class="overlay2"></div>
+            <div class="service-desc">
+                <h3>professionality</h3>
+                <hr>
+                <p>By The Best of our employees.</p>
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="image2.jpeg">
+            <div class="overlay2"></div>
+            <div class="service-desc">
+                <h3>punctuality</h3>
+                <hr>
+                <p>we will complete Any Task In Time. No Matter What Happen.</p>
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="image3.jpeg">
+            <div class="overlay2"></div>
+            <div class="service-desc">
+                <h3>protected</h3>
+                <hr>
+                <p>Our Slogan is Wear Mask Save Lives. Each Of Our Employees Get Covid-19 Test Before Delivering An Item.
+                    That Makes Us Safe. </p>
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="image4.jpeg">
+            <div class="overlay2"></div>
+            <div class="service-desc">
+                <h3>Hospitality</h3>
+                <hr>
+                <p> we're known by Our Hospitable Treatment ,reception. Order Now And Be Our Family</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--howitworks-->
+<section id="howitworks">
+    <div class="title-text">
+        <p>How it works</p>
+    </div>   
+    <div class="howitworks-box">
+        <div class="howitworks">
+            <div class="howitworks-text">
+                
+            <div class="howitworks-icon">
+                <i class="fa fa-shopping-basket"></i><h1>Choose Favourite Store and Fill Your Cart</h1><br>
+                    Select your favorite store/supermarket from the list and fill your cart.
+                </div><br>
+                    
+                <div class="howitworks-icon">
+                    <i class="fa fa-clock"></i><h1>Choose the Delivery Address, Date & Time</h1>
+                    Make sure if the map is locating your exact address, then choose the delivery date & time.
+                </div><br>
+                    
+                <div class="howitworks-icon">
+                    <i class="fa fa-check-square"></i><h1>Place your order!</h1>
+                    Once you have all your choices, click on "Place Order" & you'll receive a confirmation e-mail.</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+        
+</section>
+
+<!-- Testimonial -->
+<section id="testimonial">
+        <div class="title-text">
+            <p>TESTIMONIAL</p>
+            <h1>What Client Says</h1>
+        </div>
+        <div class="testimonial-row">
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="iimg1.jpeg">
+                <div class="user-info">
+                    <h4>JACOB SEMERE <i class="fa fa-twitter"></i></h4>
+                    <small>@yaqobb24</small>
+                </div>
+                </div>
+                <p>I’m so glad I ordered this pizza—it tastes great! plus the delivery price Is Not A huge Thing That makes it Nice.
+                </p>
+            </div>
+                <div class="testimonial-col">
+                        <div class="user">
+                            <img src="user2jpeg.jpg">
+                        <div class="user-info">
+                            <h4>SOLOME YISAQ<i class="fa fa-twitter"></i></h4>
+                            <small>@braveone</small>
+                        </div>
+                        </div>
+                    <p>I usually just have a salad for lunch because I’m trying to lose weight. And i'm in love with it.</p>
+                </div>
+                <div class="testimonial-col">
+                    <div class="user">
+                        <img src="user3.jpeg">
+                    <div class="user-info">
+                        <h4>THE DANIEL'S<i class="fa fa-twitter"></i></h4>
+                        <small>@GOD'S_Glory</small>
+                    </div>
+                    </div>
+                        <p>Wow, this pasta salad is amazing!!!.my wife and i love it so much,you guys need to try it too.</p>
+                    </div>
+                </div>
+</section>
+<!--footer-->
+
+<section id="footer">
+    <img src="chef.jpg" class="footer-img">
+    <div class="title-text">
+        <p>CONTACT</p>
+        <h1>ORDER US NOW</h1>
+    </div>
+    <div class="footer-row">
+    <div class="footer-left">
+        <h1>Opening Hours</h1>
+        <p><i class="fa fa-clock-o"></i> Monday To Friday - 8am to 9pm</p>
+        <p><i class="fa fa-clock-o"></i> saturday and sunday - 8am to 11pm</p>
+    </div>
+    <div class="footer-right">
+        <h1>keep updated</h1>
+        <p>Addis Ababa<i class="fa fa-map-marker"></i> </p>
+        <p>visit us @prime.com<i class="fa fa-paper-plane"></i> </p>
+        <p>+251980152478<i class="fa fa-phone"></i> </p>
+    </div>
+    </div>
+</section>
+<div class="social-links"></a>
+    <a href="about.html"><i class="fa fa-facebook"></i></a>
+    <a href="about.html"><i class="fa fa-instagram"></i></a>
+    <a href="about.html"><i class="fa fa-twitter"></i></a>  
+    <p>All Rights Reserved by^^Leo &copy;2020</p>
+</div>
+<a class="gotopbtn" href="#"><i class="fas fa-angle-double-up"></i></a>
+    </body>
+</html>
